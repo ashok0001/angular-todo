@@ -1,0 +1,15 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.itemContainer{
+    display: flex;
+    align-items: center;
+}
+.item{
+    /* padding-left: 1rem; */
+}
