@@ -1,2 +1,5 @@
-<p>tasks works!</p>
-<app-task-card/>
+<h1>All tasks</h1>
+
+<div class="taskContainer">
+    <app-task-card *ngFor="let task of tasks" [task]="task"></app-task-card>
+</div>

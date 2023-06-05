@@ -1,0 +1,14 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 5px;
+    background: #000;
+    opacity: 50;
+    margin-bottom: 10px;
+    
+}

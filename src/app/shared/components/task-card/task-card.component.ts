@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-task-card',
@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class TaskCardComponent {
 
+  @Input() task:any;
+
+  checkBoxOnChange=(e:any)=>{
+    const value=e.checked;
+    console.log('check box value - ', value)
+  }
 }

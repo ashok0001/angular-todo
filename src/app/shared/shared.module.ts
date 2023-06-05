@@ -6,7 +6,7 @@ import { TaskCardComponent } from './components/task-card/task-card.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
-
+import {MatCheckboxModule} from '@angular/material/checkbox';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
   ],
   imports: [
     CommonModule,
-    MatToolbarModule, MatButtonModule, MatIconModule
+    MatToolbarModule, MatButtonModule, MatIconModule, MatCheckboxModule
   ],
   exports:[
     NavbarComponent,FooterComponent,TaskCardComponent
