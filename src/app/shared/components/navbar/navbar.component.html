@@ -10,15 +10,16 @@
     <span>Task Management</span>
   </div>
   <div class="itemContainer">
-    <button mat-button>HOME</button>
+    <button (click)="navigateTo('')" mat-button>HOME</button>
 
-    <button mat-button class="item">TASK</button>
+    <button (click)="navigateTo('tasks')" mat-button class="item">TASKS</button>
   </div>
   <div>
     <button
       mat-icon-button
       class="example-icon"
       aria-label="Example icon-button with share icon"
+      (click)="navigateTo('profile')"
     >
       <mat-icon>account_circle</mat-icon>
     </button>

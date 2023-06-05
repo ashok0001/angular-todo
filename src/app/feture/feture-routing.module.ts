@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { FetureComponent } from './feture.component';
 import { ProfileComponent } from './page/profile/profile.component';
 import { HomeComponent } from './page/home/home.component';
+import { TasksComponent } from './page/tasks/tasks.component';
 
 const routes: Routes = [
   {
@@ -11,6 +12,7 @@ const routes: Routes = [
     children: [
       { path: 'profile', component: ProfileComponent },
       { path: '', component: HomeComponent },
+      { path: 'tasks', component: TasksComponent },
     ],
   },
 ];
